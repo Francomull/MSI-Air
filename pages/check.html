@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title hidden>Check in</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel="icon" href="../Images/logo-air-4.ico" class="icono">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Teko:wght@300&display=swap" rel="stylesheet">
+
+    <!-- Link a Bootstrap -->
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" 
+    integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    
+    <!-- Link CSS propio -->
+
+    <link rel="stylesheet" type="text/css" href="../styles/estilo.css">
+    <link rel="stylesheet" type="text/css" href="../styles/normalize.css">
+
+</head>
+<body>
+<div class="master-div">    
+    <header>
+        <!-- Acá empieza mi header, con el logo de la compañía y su nombre -->
+
+        <a href="../index.html" class="logo">
+            <img src="../images/logo-air-4.png" alt="MSI Airlines">
+            <span> MSI Airlines </span>
+        </a>
+
+        <nav>
+            <!-- Este es mi "nav" con 3 secciones diferentes para que interactue el usuario -->
+            <ul class="nav-ul">
+                <li><a href="../index.html"> inicio </a></li>
+                <li><a href="destinos.html"> Destinos</a></li>
+                <li><a href="ofertas.html"> Oferteas de Vuelos </a></li>
+                <li><a href="admin-viajes.html"> Administrar Viajes </a></li>
+                <li><a href="check.html"> Check-in </a></li>
+            </ul>
+        </nav>
+        
+        <div class="divnav">
+            <!-- En lugar de la etiqueta "a" pensaba poner un "Buttom" o un "input-submit" pero no sé como hacer para redirigir a la pagina de inicio de sesión-->
+        <a href="#" class="iniciar.secion"> Iniciar Secion </a>
+        </div>
+
+    </header>
+
+    <main>
+
+        <form class="row g-3">
+            <div class="col-md-6">
+              <label for="inputEmail4" class="form-label">Email</label>
+              <input type="email" class="form-control" id="inputEmail4">
+            </div>
+            <div class="col-md-6">
+              <label for="inputPassword4" class="form-label">Password</label>
+              <input type="password" class="form-control" id="inputPassword4">
+            </div>
+            <div class="col-12">
+              <label for="inputAddress" class="form-label">Address</label>
+              <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
+            </div>
+            <div class="col-12">
+              <label for="inputAddress2" class="form-label">Address 2</label>
+              <input type="text" class="form-control" id="inputAddress2" placeholder="Apartment, studio, or floor">
+            </div>
+            <div class="col-md-6">
+              <label for="inputCity" class="form-label">City</label>
+              <input type="text" class="form-control" id="inputCity">
+            </div>
+            <div class="col-md-4">
+              <label for="inputState" class="form-label">State</label>
+              <select id="inputState" class="form-select">
+                <option selected>Choose...</option>
+                <option>...</option>
+              </select>
+            </div>
+            <div class="col-md-2">
+              <label for="inputZip" class="form-label">Zip</label>
+              <input type="text" class="form-control" id="inputZip">
+            </div>
+            <div class="col-12">
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" id="gridCheck">
+                <label class="form-check-label" for="gridCheck">
+                  Check me out
+                </label>
+              </div>
+            </div>
+            <div class="col-12">
+              <button type="submit" class="btn btn-primary">Sign in</button>
+            </div>
+          </form>
+    </main>
+
+    <footer>
+
+        <!--Aca comenzaría mi "footer" con listas que ordenan su contenido. Y use las etiquetas "a" con un "#" para que simule 
+           una direccion y cuando se pase el mouse por arriba de la impresion de que se puede seleccionar, ya que en una 
+           pagina terminada eso seria lo indicado-->
+        <div>
+            <h5> MSI Airlines</h5>
+            <ul>
+                <li><a href="#">Acerca de MSI</a></li>
+                <li><a href="#">Experiencia MSI</a></li>
+                <li><a href="#">Prepara tu viaj</a></a></li>
+                <li><a href="#">Mis viajes</a></li>
+                <li><a href="#">Check-in</a></li>
+                <li><a href="#">Destinos</a></li>
+                <li><a href="#">MSI Wallet</a></li>
+                <li><a href="#">Crea tu Cuenta</a></li>
+            </ul>
+        </div>
+
+        <div>
+            <h5>Portales asociados</h5>
+            <ul>
+                <li><a href="#">amos / MSI</a></li>
+                <li><a href="#">MSI Cargo</a></li>
+                <li><a href="#">MSI Empresas</a></li>
+                <li><a href="#">Staff Travel</a></li>
+                <li><a href="#">Relación con inversionistas</a></li>
+            </ul>
+        </div>
+
+        <div>
+            <h5>Informacion legal</h5>
+            <ul>
+                <li><a href="#">Condiciones de contrato de transporte</a></li>
+                <li><a href="#">Cargos por servicio</a></li>
+                <li><a href="#">Privacidad, seguridad y recomendaciones</a></li>
+                <li><a href="#">Términos de uso</a></li>
+            </ul>
+        </div>
+    </footer>
+</div>
+
+
+
+
+<!-- Link a JS -->
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+
+</body>
+</html>

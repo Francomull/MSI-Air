@@ -1,0 +1,826 @@
+/* LOS ESTILOS ESTAN ORDENADOS SEGUN EL ORDEN
+EN EL NAVEGADOR DE LA PAGINA (INICIO/DESTINOS
+/OFERTAS/ADMIN/CHECK) */
+
+
+*{
+    font-family:'Teko', sans-serif;
+	font-size: 17px;
+	font-weight: 100px;
+    display: flex;
+    flex-direction: column;
+}
+/* COLOR DE TODO */
+.master-div{
+    background-color: #1E3F46;
+}
+/*Estilos del header*/
+
+header :hover{
+    color:#0572a1;
+}
+
+.nav-ul{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header{
+    display: flex;
+    position:sticky;
+	justify-content: space-between;
+	background: linear-gradient(to right, #000000cd, #1E3F46);
+	align-items:center;
+	padding: 10px;
+    flex-direction: row; 
+}
+
+header nav{
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 10px;
+    flex-direction: row;
+}
+
+.divnav{
+    padding-top: 10px;
+}
+
+.logo{
+    flex-direction: row;
+    align-items: center;
+}
+
+.logo span{
+    color: #ffffff;
+    font-size: 25px;
+    font-weight: 4px;
+    padding-top: 10px;
+    align-items: center;
+}
+
+a{
+    font-size: 25px;
+    font-weight: 4px;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.monologo h3{
+    padding-left: 30px;
+    padding-top: 40px;
+}
+
+
+.logo img{
+    margin-top: 5px;
+    height: 50px;
+    margin-right: 10px;
+    border-radius: 10px;
+}
+
+
+/*Estilos del main*/
+
+
+/* ESTILOS INDEX*/
+.reservaciones-todo{
+    width: 100%;
+    height: 130px;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.vuelos{
+    padding-top: 15px;
+    padding-left: 30px;
+    color:#000000;
+    border-color:#000000;
+    border-radius: 10px;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+    border-style: solid;
+    height: 75px;
+    width: 140px;
+}
+
+.vuelos:hover{
+    color: #0572a1;
+}
+
+.vuelos h4{
+    margin-top: 4px;
+    margin-bottom: 4px;
+    font-size: 27px;
+}
+
+.tiempo{
+    padding-top: 17px;
+    color:#1E3F46;
+    border-color: #000000;
+    border-radius: 10px;
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+    border-style: solid; 
+    width: 320px;
+    height: 75px;
+}
+
+.monologo{
+    background-image: url(../Images/avion-rojo1.jpg);
+    background-color: #1E3F46;
+    align-items: center;
+    background-position: center;
+    height: 200px;
+}
+
+.destino-todo{
+    position: relative;
+    display: flex;
+    width: 100%;
+    height: 110px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.form-destino{
+    position: absolute;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    height: 200px;
+}
+
+
+.origen{
+    justify-content: space-between;
+    width: 320px;
+    height: 75px;
+    border-style:solid;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px;
+}
+
+.destino{
+    justify-content: space-between;
+    width: 320px;
+    height: 75px;
+    border-style: solid;
+    border-radius: 10px;
+    margin-top: 0;
+    padding: 10px;
+    margin: 10px;
+}
+
+.ida{
+    justify-content: space-between;
+    width: 200px;
+    height: 100px;
+    border-style:solid;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px;
+}
+
+.buscar{
+    justify-content: space-between;
+    width: 140px;
+    height: 75px;
+    border-style:solid;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px;
+}
+
+
+.buttom{
+    padding-top: 10px;
+    color:#1E3F46;
+}
+
+
+.ofertas-todo{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+
+.ofertas-todo img{
+    height: 300px;
+    width: 800px;
+    border-radius: 10px;
+}
+
+.ofertas-todo a{
+    align-items: center;
+    justify-content: center;
+    color: #000000;
+}
+
+.ofertas-todo a:hover{
+    border-color:#0572a1;
+    border-style: ridge;
+    border-radius: 10px;
+}
+
+.salta{
+    align-items: center;
+    justify-content: center; 
+}
+
+
+.lista-ul{
+    flex-direction: row;
+}
+
+.lista-ul img{
+    max-height: 600px;
+    max-width: 300px;
+    border-radius: 10px;
+}
+
+.experiencia {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.experiencia a{
+    color: #000000;
+}
+
+
+main{
+    align-items: center;
+}
+
+
+/* ESTILOS DESTINOS */
+
+.destinos-main{    
+    display: flex;
+    flex-direction:column;
+    align-items:center;
+}
+
+.opciones{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 1rem;
+    gap: 1rem;
+    margin-top: 40px;
+    align-items: center;
+}
+
+.opciones a{
+    height: 400px;
+    width: 500px;
+    justify-content: end;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.Brasil a{
+    background-image: url(../Images/brasil.jpg);
+    background-repeat: no-repeat;
+}
+
+.Bolivia a{
+    background-image: url(../Images/bolivia.jpg);
+    background-repeat: no-repeat;
+}
+
+.chile2 a{
+    background-image: url(../Images/chile.jpg);
+    background-repeat: no-repeat;
+}
+
+.Colombia a{
+    background-image: url(../Images/colombia.jpg);
+    background-repeat: no-repeat;
+}
+
+.Ecuador a{
+    background-image: url(../Images/ecuador.jpg);
+    background-repeat: no-repeat;
+}
+
+.España a{
+    background-image: url(../Images/españa.jpg);
+    background-repeat: no-repeat;
+}
+
+.USA a{
+    background-image: url(../Images/USA.jpg);
+    background-repeat: no-repeat;
+}
+
+.Italia a{
+    background-image: url(../Images/italia.jpg);
+    background-repeat: no-repeat;
+}
+
+.Mexico a{
+    background-image: url(../Images/mexico.jpg);
+    background-repeat: no-repeat;
+}
+
+.Paraguay a{
+    background-image: url(../Images/paraguay.jpg);
+    background-repeat: no-repeat;
+}
+
+.Peru a{
+    background-image: url(../Images/peru.jpg);
+    background-repeat: no-repeat;
+}
+
+.Uruguay a{
+    background-image: url(../Images/uruguay.jpg);
+    background-repeat: no-repeat;
+}
+
+
+.opciones a:hover{
+    border-bottom-style: solid;
+    border-bottom-color: #00000087;
+}
+
+.opciones .contenedor{
+    display: flex;
+    justify-content: space-between;
+    flex-direction:row;
+    align-items: center;
+    background-color: #021707b7;
+    height: 100px;
+    width: 100%;
+    border-radius: 25px;
+    margin-bottom: 20px;
+}
+
+.opciones .contenedor:hover{
+    border-style: solid;
+    border-color: #0000008c;
+}
+
+.texto h3{
+    font-size: 40px;
+    margin-left: 25px;
+    color: #e5e5e5c1;
+}
+
+.boton{
+    align-items: center;
+    padding-top: 10px;
+    margin-right: 25px;
+    font-size: 25px;
+    width: 100px;
+    height: 50px;
+    overflow: hidden;
+    border-radius: 20px;
+    font-family:'Teko', sans-serif;
+}
+
+.boton:hover{
+    background-color: #0572a172;
+}
+
+
+/* ESTILOS "OFERTAS" */
+
+.ofertas-main{
+    display: flex;
+    flex-direction:column;
+    align-items:center;
+}
+
+.img{
+    display: flex;
+    align-items: center;
+}
+
+.img img{
+    width: 1700px;
+    height: 300px;
+    border-bottom-left-radius: 40px;
+    border-bottom-right-radius:40px
+}
+
+.mas-buscado{
+    display: grid;
+    margin-bottom: 10px;
+    border-style: solid;
+    border-radius: 10px;
+    width: 1000px;
+    height: 200px;
+    grid-template-columns: 100px 425px 425px ;
+    align-items: center;
+}
+
+.otras-opciones{
+    display: grid;
+    margin-top: 10px;
+    width: 900px ;
+    border-style: solid;
+    border-radius: 10px;
+}
+
+.otras-opciones a{
+    display: grid;
+    grid-template-columns: 20% auto;
+    align-items: center;
+}
+
+.otras-opciones a:hover{
+    border-color:#0572a1;
+    border-style: ridge;
+    border-radius: 10px;
+}
+
+.precios{
+    display: flex;
+    justify-content: space-between;
+}
+
+.otras-opciones img{
+    border-radius: 5px;
+    margin: 5px 5px;
+}
+
+.Chile{
+    margin: 10px 10px;
+    border-style: solid;
+    border-style: 2px;
+    border-radius: 5px;
+}
+
+.Cusco{
+    margin: 10px 10px;
+    border-style: solid;
+    border-style: 2px;
+    border-radius: 5px;
+}
+
+.Cancun{
+    margin: 10px 10px;
+    border-style: solid;
+    border-style: 2px;
+    border-radius: 5px;
+}
+
+.Miami{
+    margin: 10px 10px;
+    border-style: solid;
+    border-style: 2px;
+    border-radius: 5px;
+}
+
+
+/* ESTILOS ADIM VIAJES */
+
+
+
+/*ESTILOS CHECK IN*/
+
+
+.codigo-reserva{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 300px;
+    height: 100px;
+    border-style: solid;
+    border-radius: 10px;
+}
+
+.pasajero{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 300px;
+    height: 100px;
+    border-style: solid;
+    border-radius: 10px;
+}
+
+.form{
+    display: flex;
+    flex-direction: center;
+    align-items: center;
+    width: 100%;
+    max-width: 800px;
+    height: 220px;
+}
+
+.form-2{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    max-width: 800px;
+    width: 100%;
+    height: 120px;
+}
+
+.datos{
+    font-size: 35px;
+    font-family: italic;
+}
+
+
+
+/* ESTILOS FOOTER */
+
+
+footer{
+    color: #1E3F46;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+footer a{
+    color: #000000;
+}
+
+footer a:hover{
+    color: #0572a1;
+}
+
+
+
+/* MEDIA QUERIE */
+
+
+/* Laptop */
+
+@media screen and (max-width:1740px){
+
+    /* Media de Ofertas */
+ 
+    .ofertas-main .img{
+        width: 1400px;
+    }
+
+    }
+
+@media screen and (max-width:1550px){
+
+/* Media de Destinos */
+
+     .encabezado{
+        align-items: center;
+    }
+
+    .ofertas-de-vuelos{
+        align-items: center;
+    }
+
+    .ofertas-de-vuelos .desde{
+        width: 500px;
+    }
+
+    .opciones{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        grid-gap: 1rem;
+        gap: 1rem;
+        margin-top: 40px;
+        align-items: center;
+    }
+
+        /* Media de Ofertas */
+ 
+        .ofertas-main .img{
+            width: 1000px;
+        }
+}
+
+@media screen and (max-width:1030px){
+
+    .opciones{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        grid-gap: 1rem;
+        gap: 1rem;
+        margin-top: 40px;
+        align-items: center;
+    }
+
+
+    /* Media de Ofertas */
+ 
+    .ofertas-main .img{
+        display: none;
+    }
+
+    .mas-buscado{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        width:400px;
+        height: 300px;
+    }
+
+    .otras-opciones{
+        display: grid;
+        margin-top: 10px;
+        width: 400px ;
+        height: 600px;
+        border-style: solid;
+        border-radius: 10px;
+    }
+    
+    .otras-opciones a{
+        display: grid;
+        grid-template-columns: 20% auto;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+
+    /* Media Check in */
+
+    .main {
+        align-items: center;
+    }
+
+    .main .titulos{
+        align-items: center;
+    }
+
+    .form .form-2{
+        align-items: center;
+    }
+}
+
+@media screen and (max-width:1024px){
+
+    /* Media del Index ( Inicio )*/
+
+    .reservaciones-todo{
+        flex-direction: column;
+        height:500px;
+        justify-content: center;
+    }
+
+    .vuelos{
+        color:#000000;
+        border-color:#000000;
+        border-radius: 10px;
+        border-bottom-right-radius: 0px;
+        border-bottom-left-radius: 0px;
+        border-style: solid;
+        margin-bottom: 2px;
+    }
+    
+    .tiempo{
+        padding-top: 17px;
+        color:#1E3F46;
+        border-color: #000000;
+        border-radius: 10px;
+        border-style: solid;
+        margin-top: 2px;
+    }
+
+    .ofertas-todo{
+        flex-direction: column;
+    }
+
+    .form-destino{
+        display: flex;
+        flex-direction: row;
+        height: 200px;
+    }
+
+    .destino-todo{
+        height: 200px;
+    }
+
+    .lista-ul{
+        flex-direction: column;
+    }
+
+   
+
+    /* Media del Footer */
+
+    footer{
+        font-size: small;
+    }
+
+}
+
+/* Tablet */
+@media (max-width:700px){
+    header{
+        flex-direction: column;
+    }
+    
+    nav{
+        padding: 5px 15px;
+    }
+}
+
+
+/* Mobile L*/
+@media screen and (max-width:572px){
+
+    .destino-todo{
+        display:flex;
+        flex-direction: column;
+        height:800px;
+        align-items: center;
+    }
+
+    .form-destino{
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+        height:600px
+
+    }
+
+    .reservaciones-todo{
+        height:900px ;
+        justify-content: none;
+    }
+}
+
+@media screen and (max-width:510px){
+
+    .opciones{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        grid-gap: 1 rem;
+        gap: 1 rem;
+        margin-top: 40px;
+        align-items: center;
+    }
+
+    .ofertas-de-vuelos .desde{
+        width: 300px;
+    }
+}
+
+/* Mobile S*/
+@media  screen and (max-width:420px){
+    .nav-ul{
+        display: flex;
+        flex-direction: column;
+    }
+
+    footer{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    /* Media de Ofertas */
+ 
+    .ofertas-main .img{
+        width: 1400px;
+    }
+
+    .mas-buscado{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        width:300px;
+        height: 400px;
+    }
+
+    .otras-opciones{
+        display: grid;
+        margin-top: 10px;
+        width: 300px ;
+        height: 600px;
+        border-style: solid;
+        border-radius: 10px;
+    }
+    
+    .otras-opciones a{
+        display: grid;
+        grid-template-columns: 20% auto;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+}
+
+
+

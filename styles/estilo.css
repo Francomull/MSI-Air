@@ -135,6 +135,7 @@ a{
     background-image: url(../Images/avion-rojo1.jpg);
     background-color: #1E3F46;
     align-items: center;
+    width: 100%;
     background-position: center;
     height: 200px;
 }
@@ -209,7 +210,8 @@ a{
 
 .ofertas-todo{
     display:flex;
-    flex-direction: row;
+    flex-direction: column;
+    justify-content: space-around;
     align-items: center;
     padding-top: 10px;
     padding-bottom: 10px;
@@ -222,21 +224,20 @@ a{
     border-radius: 10px;
 }
 
-.ofertas-todo a{
+.carousel-index{
+    display: flex;
+    border: solid;
+    width: 900px;
+    height: 400px;
     align-items: center;
-    justify-content: center;
-    color: #000000;
 }
 
-.ofertas-todo a:hover{
-    border-color:#0572a1;
-    border-style: ridge;
-    border-radius: 10px;
-}
-
-.salta{
+.carousel-indicators{
+    display: flex;
     align-items: center;
-    justify-content: center; 
+    flex-direction: row;
+    justify-content: space-between;
+    width: 300px;
 }
 
 

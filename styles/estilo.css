@@ -132,7 +132,7 @@ a{
 }
 
 .monologo{
-    background-image: url(../Images/avion-rojo1.jpg);
+    background-image: url(../images/avion-rojo1.jpg);
     background-color: #1E3F46;
     align-items: center;
     width: 100%;
@@ -297,62 +297,62 @@ main{
 }
 
 .Brasil a{
-    background-image: url(../Images/brasil.jpg);
+    background-image: url(../images/brasil.jpg);
     background-repeat: no-repeat;
 }
 
 .Bolivia a{
-    background-image: url(../Images/bolivia.jpg);
+    background-image: url(../images/bolivia.jpg);
     background-repeat: no-repeat;
 }
 
 .chile2 a{
-    background-image: url(../Images/chile.jpg);
+    background-image: url(../images/chile.jpg);
     background-repeat: no-repeat;
 }
 
 .Colombia a{
-    background-image: url(../Images/colombia.jpg);
+    background-image: url(../images/colombia.jpg);
     background-repeat: no-repeat;
 }
 
 .Ecuador a{
-    background-image: url(../Images/ecuador.jpg);
+    background-image: url(../images/ecuador.jpg);
     background-repeat: no-repeat;
 }
 
 .España a{
-    background-image: url(../Images/españa.jpg);
+    background-image: url(../images/españa.jpg);
     background-repeat: no-repeat;
 }
 
 .USA a{
-    background-image: url(../Images/USA.jpg);
+    background-image: url(../images/USA.jpg);
     background-repeat: no-repeat;
 }
 
 .Italia a{
-    background-image: url(../Images/italia.jpg);
+    background-image: url(../images/italia.jpg);
     background-repeat: no-repeat;
 }
 
 .Mexico a{
-    background-image: url(../Images/mexico.jpg);
+    background-image: url(../images/mexico.jpg);
     background-repeat: no-repeat;
 }
 
 .Paraguay a{
-    background-image: url(../Images/paraguay.jpg);
+    background-image: url(../images/paraguay.jpg);
     background-repeat: no-repeat;
 }
 
 .Peru a{
-    background-image: url(../Images/peru.jpg);
+    background-image: url(../images/peru.jpg);
     background-repeat: no-repeat;
 }
 
 .Uruguay a{
-    background-image: url(../Images/uruguay.jpg);
+    background-image: url(../images/uruguay.jpg);
     background-repeat: no-repeat;
 }
 

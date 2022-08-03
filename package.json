@@ -1,0 +1,25 @@
+{
+  "name": "msi-air",
+  "version": "1.0.0",
+  "description": "MSI Airlines, primer pag",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-css": "node-sass --include-path scss styles-scss/all.scss styles/estilo.css",
+    "watch-css": "nodemon -e scss -x \"npm run build-css\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Francomull/MSI-Air.git"
+  },
+  "author": "Franco Muller",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Francomull/MSI-Air/issues"
+  },
+  "homepage": "https://github.com/Francomull/MSI-Air#readme",
+  "devDependencies": {
+    "node-sass": "^7.0.1",
+    "nodemon": "^2.0.19"
+  }
+}

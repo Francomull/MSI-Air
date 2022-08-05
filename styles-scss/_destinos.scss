@@ -1,0 +1,129 @@
+.destinos-main{    
+    display: flex;
+    flex-direction:column;
+    align-items:center;
+}
+
+.opciones{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 1rem;
+    gap: 1rem;
+    margin-top: 40px;
+    align-items: center;
+}
+
+.opciones a{
+    height: 400px;
+    width: 500px;
+    justify-content: end;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.Brasil a{
+    background-image: url(../Images/brasil.jpg);
+    background-repeat: no-repeat;
+}
+
+.Bolivia a{
+    background-image: url(../Images/bolivia.jpg);
+    background-repeat: no-repeat;
+}
+
+.chile2 a{
+    background-image: url(../Images/chile.jpg);
+    background-repeat: no-repeat;
+}
+
+.Colombia a{
+    background-image: url(../Images/colombia.jpg);
+    background-repeat: no-repeat;
+}
+
+.Ecuador a{
+    background-image: url(../Images/ecuador.jpg);
+    background-repeat: no-repeat;
+}
+
+.España a{
+    background-image: url(../Images/españa.jpg);
+    background-repeat: no-repeat;
+}
+
+.USA a{
+    background-image: url(../Images/USA.jpg);
+    background-repeat: no-repeat;
+}
+
+.Italia a{
+    background-image: url(../Images/italia.jpg);
+    background-repeat: no-repeat;
+}
+
+.Mexico a{
+    background-image: url(../Images/mexico.jpg);
+    background-repeat: no-repeat;
+}
+
+.Paraguay a{
+    background-image: url(../Images/paraguay.jpg);
+    background-repeat: no-repeat;
+}
+
+.Peru a{
+    background-image: url(../Images/peru.jpg);
+    background-repeat: no-repeat;
+}
+
+.Uruguay a{
+    background-image: url(../Images/uruguay.jpg);
+    background-repeat: no-repeat;
+}
+
+
+.opciones a:hover{
+    border-bottom-style: solid;
+    border-bottom-color: #00000087;
+}
+
+.opciones .contenedor{
+    display: flex;
+    justify-content: space-between;
+    flex-direction:row;
+    align-items: center;
+    background-color: #021707b7;
+    height: 100px;
+    width: 100%;
+    border-radius: 25px;
+    margin-bottom: 20px;
+}
+
+.opciones .contenedor:hover{
+    border-style: solid;
+    border-color: #0000008c;
+}
+
+.texto h3{
+    font-size: 40px;
+    margin-left: 25px;
+    color: #e5e5e5c1;
+}
+
+.boton{
+    align-items: center;
+    padding-top: 10px;
+    margin-right: 25px;
+    font-size: 25px;
+    width: 100px;
+    height: 50px;
+    overflow: hidden;
+    border-radius: 20px;
+    font-family:'Teko', sans-serif;
+}
+
+.boton:hover{
+    background-color: #0572a172;
+}

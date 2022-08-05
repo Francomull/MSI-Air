@@ -1,0 +1,87 @@
+
+.ofertas-main{
+    display: flex;
+    flex-direction:column;
+    align-items:center;
+}
+
+.img{
+    display: flex;
+    align-items: center;
+}
+
+.img img{
+    width: 1700px;
+    height: 300px;
+    border-bottom-left-radius: 40px;
+    border-bottom-right-radius:40px
+}
+
+.mas-buscado{
+    display: grid;
+    margin-bottom: 10px;
+    border-style: solid;
+    border-radius: 10px;
+    width: 1000px;
+    height: 200px;
+    grid-template-columns: 100px 425px 425px ;
+    align-items: center;
+}
+
+.otras-opciones{
+    display: grid;
+    margin-top: 10px;
+    width: 900px ;
+    border-style: solid;
+    border-radius: 10px;
+}
+
+.otras-opciones a{
+    display: grid;
+    grid-template-columns: 20% auto;
+    align-items: center;
+}
+
+.otras-opciones a:hover{
+    border-color:#0572a1;
+    border-style: ridge;
+    border-radius: 10px;
+}
+
+.precios{
+    display: flex;
+    justify-content: space-between;
+}
+
+.otras-opciones img{
+    border-radius: 5px;
+    margin: 5px 5px;
+}
+
+.Chile{
+    margin: 10px 10px;
+    border-style: solid;
+    border-style: 2px;
+    border-radius: 5px;
+}
+
+.Cusco{
+    margin: 10px 10px;
+    border-style: solid;
+    border-style: 2px;
+    border-radius: 5px;
+}
+
+.Cancun{
+    margin: 10px 10px;
+    border-style: solid;
+    border-style: 2px;
+    border-radius: 5px;
+}
+
+.Miami{
+    margin: 10px 10px;
+    border-style: solid;
+    border-style: 2px;
+    border-radius: 5px;
+}

@@ -1,0 +1,85 @@
+*{
+    font-family:'Teko', sans-serif;
+	font-size: 17px;
+	font-weight: 100px;
+    display: flex;
+    flex-direction: column;
+}
+/* COLOR DE TODO */
+.master-div{
+    background-color: #1E3F46;
+}
+/*Estilos del header*/
+
+header :hover{
+    color:#0572a1;
+}
+
+header{
+    display: flex;
+    position:sticky;
+	justify-content: space-between;
+	background: linear-gradient(to right, #000000cd, #1E3F46);
+	align-items:center;
+	padding: 10px;
+    flex-direction: row; 
+
+    :hover{
+        color:#0572a1;
+    }
+
+    a{
+        font-size: 25px;
+        font-weight: 4px;
+        padding-left: 10px;
+        padding-right: 10px;
+        text-decoration: none;
+        color: #ffffff;
+    }
+
+    nav{
+        justify-content: space-between;
+        align-items: center;
+        padding-top: 10px;
+        flex-direction: row;
+
+        ul{
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: space-between;
+        }
+    }
+}
+
+.divnav{
+    padding-top: 10px;
+}
+
+.logo{
+    flex-direction: row;
+    align-items: center;
+}
+
+.logo span{
+    color: #ffffff;
+    font-size: 25px;
+    font-weight: 4px;
+    padding-top: 10px;
+    align-items: center;
+}
+
+
+
+.monologo h3{
+    padding-left: 30px;
+    padding-top: 40px;
+}
+
+
+.logo img{
+    margin-top: 5px;
+    height: 50px;
+    margin-right: 10px;
+    border-radius: 10px;
+}

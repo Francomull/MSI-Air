@@ -1,4 +1,60 @@
 @charset "UTF-8";
+/*Estilos del header*/
+header :hover {
+  color: #0572a1; }
+
+header {
+  display: flex;
+  position: sticky;
+  justify-content: space-between;
+  background: linear-gradient(to right, #000000cd, #1E3F46);
+  align-items: center;
+  padding: 10px;
+  flex-direction: row; }
+  header :hover {
+    color: #0572a1; }
+  header a {
+    font-size: 25px;
+    font-weight: 4px;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-decoration: none;
+    color: #ffffff; }
+  header nav {
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 10px;
+    flex-direction: row; }
+    header nav ul {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: space-between; }
+
+.divnav {
+  padding-top: 10px; }
+
+.logo {
+  flex-direction: row;
+  align-items: center; }
+
+.logo span {
+  color: #ffffff;
+  font-size: 25px;
+  font-weight: 4px;
+  padding-top: 10px;
+  align-items: center; }
+
+.monologo h3 {
+  padding-left: 30px;
+  padding-top: 40px; }
+
+.logo img {
+  margin-top: 5px;
+  height: 50px;
+  margin-right: 10px;
+  border-radius: 10px; }
+
 .reservaciones-todo {
   width: 100%;
   height: 130px;
@@ -371,58 +427,176 @@ main {
   font-size: 35px;
   font-family: italic; }
 
-/*Estilos del header*/
-header :hover {
-  color: #0572a1; }
+/* Laptop */
+@media screen and (max-width: 1740px) {
+  /* Media de Ofertas */
+  .ofertas-main .img {
+    width: 1400px; } }
 
-header {
-  display: flex;
-  position: sticky;
-  justify-content: space-between;
-  background: linear-gradient(to right, #000000cd, #1E3F46);
-  align-items: center;
-  padding: 10px;
-  flex-direction: row; }
-  header :hover {
-    color: #0572a1; }
-  header a {
-    font-size: 25px;
-    font-weight: 4px;
-    padding-left: 10px;
-    padding-right: 10px;
-    text-decoration: none;
-    color: #ffffff; }
-  header nav {
-    justify-content: space-between;
+@media screen and (max-width: 1550px) {
+  /* Media de Destinos */
+  .encabezado {
+    align-items: center; }
+  .ofertas-de-vuelos {
+    align-items: center; }
+  .ofertas-de-vuelos .desde {
+    width: 500px; }
+  .opciones {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 1rem;
+    gap: 1rem;
+    margin-top: 40px;
+    align-items: center; }
+  /* Media de Ofertas */
+  .ofertas-main .img {
+    width: 1000px; } }
+
+@media screen and (max-width: 1030px) {
+  .opciones {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 1rem;
+    gap: 1rem;
+    margin-top: 40px;
+    align-items: center; }
+  /* Media de Ofertas */
+  .ofertas-main .img {
+    display: none; }
+  .mas-buscado {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 400px;
+    height: 300px; }
+  .otras-opciones {
+    display: grid;
+    margin-top: 10px;
+    width: 400px;
+    height: 600px;
+    border-style: solid;
+    border-radius: 10px; }
+  .otras-opciones a {
+    display: grid;
+    grid-template-columns: 20% auto;
+    justify-content: space-evenly;
+    align-items: center; }
+  /* Media Check in */
+  .main {
+    align-items: center; }
+  .main .titulos {
+    align-items: center; }
+  .form .form-2 {
+    align-items: center; } }
+
+@media screen and (max-width: 1024px) {
+  /* Media del Index ( Inicio )*/
+  .reservaciones-todo {
+    flex-direction: column;
+    height: 500px;
+    justify-content: center; }
+  .vuelos {
+    color: #000000;
+    border-color: #000000;
+    border-radius: 10px;
+    border-bottom-right-radius: 0px;
+    border-bottom-left-radius: 0px;
+    border-style: solid;
+    margin-bottom: 2px; }
+  .tiempo {
+    padding-top: 17px;
+    color: #1E3F46;
+    border-color: #000000;
+    border-radius: 10px;
+    border-style: solid;
+    margin-top: 2px; }
+  .ofertas-todo {
+    flex-direction: column; }
+  .form-destino {
+    display: flex;
+    flex-direction: row;
+    height: 200px; }
+  .destino-todo {
+    height: 200px; }
+  .lista-ul {
+    flex-direction: column; }
+  /* Media del Footer */
+  footer {
+    font-size: small; } }
+
+/* Tablet */
+@media (max-width: 700px) {
+  header {
+    flex-direction: column; }
+  nav {
+    padding: 5px 15px; } }
+
+/* Mobile L*/
+@media screen and (max-width: 572px) {
+  .destino-todo {
+    display: flex;
+    flex-direction: column;
+    height: 800px;
+    align-items: center; }
+  .form-destino {
+    display: flex;
+    flex-direction: column;
     align-items: center;
-    padding-top: 10px;
-    flex-direction: row; }
-    header nav ul {
-      display: flex;
-      flex-direction: row;
-      align-items: center;
-      justify-content: space-between; }
+    height: 600px; }
+  .reservaciones-todo {
+    height: 900px;
+    justify-content: none; } }
 
-.divnav {
-  padding-top: 10px; }
+@media screen and (max-width: 510px) {
+  .opciones {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 1 rem;
+    gap: 1 rem;
+    margin-top: 40px;
+    align-items: center; }
+  .ofertas-de-vuelos .desde {
+    width: 300px; } }
 
-.logo {
+/* Mobile S*/
+@media screen and (max-width: 420px) {
+  .nav-ul {
+    display: flex;
+    flex-direction: column; }
+  footer {
+    display: flex;
+    flex-direction: column; }
+  /* Media de Ofertas */
+  .ofertas-main .img {
+    width: 1400px; }
+  .mas-buscado {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 300px;
+    height: 400px; }
+  .otras-opciones {
+    display: grid;
+    margin-top: 10px;
+    width: 300px;
+    height: 600px;
+    border-style: solid;
+    border-radius: 10px; }
+  .otras-opciones a {
+    display: grid;
+    grid-template-columns: 20% auto;
+    justify-content: space-evenly;
+    align-items: center; } }
+
+footer {
+  color: #1E3F46;
+  display: flex;
   flex-direction: row;
-  align-items: center; }
+  align-items: center;
+  justify-content: space-around; }
 
-.logo span {
-  color: #ffffff;
-  font-size: 25px;
-  font-weight: 4px;
-  padding-top: 10px;
-  align-items: center; }
+footer a {
+  color: #000000; }
 
-.monologo h3 {
-  padding-left: 30px;
-  padding-top: 40px; }
-
-.logo img {
-  margin-top: 5px;
-  height: 50px;
-  margin-right: 10px;
-  border-radius: 10px; }
+footer a:hover {
+  color: #0572a1; }

@@ -398,6 +398,9 @@ main {
   border-style: 2px;
   border-radius: 5px; }
 
+.ofertas-main {
+  color: aqua; }
+
 .codigo-reserva {
   display: flex;
   align-items: center;

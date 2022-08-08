@@ -1,4 +1,15 @@
 @charset "UTF-8";
+* {
+  font-family: 'Teko', sans-serif;
+  font-size: 17px;
+  font-weight: 100px;
+  display: flex;
+  flex-direction: column; }
+
+/* COLOR DE TODO */
+.master-div {
+  background-color: #1E3F46; }
+
 /*Estilos del header*/
 header :hover {
   color: #0572a1; }
@@ -427,6 +438,19 @@ main {
   font-size: 35px;
   font-family: italic; }
 
+footer {
+  color: #1E3F46;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around; }
+
+footer a {
+  color: #000000; }
+
+footer a:hover {
+  color: #0572a1; }
+
 /* Laptop */
 @media screen and (max-width: 1740px) {
   /* Media de Ofertas */
@@ -587,16 +611,3 @@ main {
     grid-template-columns: 20% auto;
     justify-content: space-evenly;
     align-items: center; } }
-
-footer {
-  color: #1E3F46;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: space-around; }
-
-footer a {
-  color: #000000; }
-
-footer a:hover {
-  color: #0572a1; }

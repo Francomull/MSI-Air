@@ -1,4 +1,16 @@
 
+*{
+    font-family:'Teko', sans-serif;
+	font-size: 17px;
+	font-weight: 100px;
+    display: flex;
+    flex-direction: column;
+}
+
+/* COLOR DE TODO */
+.master-div{
+    background-color: #1E3F46;
+} 
 /*Estilos del header*/
 
 header :hover{

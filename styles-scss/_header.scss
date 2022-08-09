@@ -9,13 +9,10 @@
 
 /* COLOR DE TODO */
 .master-div{
-    background-color: #1E3F46;
+    background-color: #ffffff;
 } 
 /*Estilos del header*/
 
-header :hover{
-    color:#0572a1;
-}
 
 header{
     display: flex;
@@ -27,7 +24,7 @@ header{
     flex-direction: row; 
 
     :hover{
-        color:#0572a1;
+        color:#03587d;
     }
 
     a{

@@ -8,12 +8,9 @@
 
 /* COLOR DE TODO */
 .master-div {
-  background-color: #1E3F46; }
+  background-color: #ffffff; }
 
 /*Estilos del header*/
-header :hover {
-  color: #0572a1; }
-
 header {
   display: flex;
   position: sticky;
@@ -23,7 +20,7 @@ header {
   padding: 10px;
   flex-direction: row; }
   header :hover {
-    color: #0572a1; }
+    color: #03587d; }
   header a {
     font-size: 25px;
     font-weight: 4px;

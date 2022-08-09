@@ -21,7 +21,7 @@
 }
 
 .vuelos:hover{
-    color: #0572a1;
+    color: $color-hovers;
 }
 
 .vuelos h4{
@@ -140,7 +140,7 @@
 }
 
 .ofertas-todo a:hover{
-    border-color:#0572a1;
+    border-color:$color-hovers;
     border-style: ridge;
     border-radius: 10px;
 }

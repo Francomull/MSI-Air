@@ -1,10 +1,11 @@
 
 footer{
-    color: #1E3F46;
+    color: $color-all;
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-around;
+    width:100%;
 }
 
 footer a{
@@ -12,5 +13,5 @@ footer a{
 }
 
 footer a:hover{
-    color: #0572a1;
+    color: $color-hovers;
 }

@@ -7,11 +7,9 @@
     flex-direction: column;
 }
 
-/* COLOR DE TODO */
 .master-div{
-    background-color: $color-all;
-} 
-/*Estilos del header*/
+    background-color:$colorAll;
+}
 
 
 header{
@@ -19,7 +17,7 @@ header{
     display: flex;
     position:sticky;
 	justify-content: space-between;
-	background: linear-gradient(to right, #000000cd, #ffffff);
+	background: linear-gradient(to right, #000000cd, $colorAll);
 	align-items:center;
 	padding: 10px;
     flex-direction: row; 
@@ -34,7 +32,7 @@ header{
         padding-left: 10px; 
         padding-right: 10px;
         text-decoration: none;
-        color: $color-all;
+        color: #ffffff;
     }
 
     nav{
@@ -62,7 +60,7 @@ header{
 }
 
 .logo span{
-    color: $color-all;
+    color: #ffffff;
     font-size: 25px;
     font-weight: 4px;
     padding-top: 10px;

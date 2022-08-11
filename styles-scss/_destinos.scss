@@ -21,6 +21,7 @@
     border-top-right-radius: 25px;
     border-bottom-left-radius: 5px;
     border-bottom-right-radius: 5px;
+    text-decoration: none;
 }
 
 .Brasil a{
@@ -86,7 +87,7 @@
 
 .opciones a:hover{
     border-bottom-style: solid;
-    border-bottom-color: $color-hovers;
+    border-bottom-color: $colorHover;
 }
 
 .opciones .contenedor{
@@ -125,5 +126,5 @@
 }
 
 .boton:hover{
-    background-color: #0572a172;
+    background-color: $colorHover;
 }

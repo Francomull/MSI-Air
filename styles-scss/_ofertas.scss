@@ -3,18 +3,23 @@
     display: flex;
     flex-direction:column;
     align-items:center;
+
+    a{
+        text-decoration: none;
+        color:#000000;
+    }
 }
 
 .img{
     display: flex;
     align-items: center;
-}
 
-.img img{
-    width: 1700px;
-    height: 300px;
-    border-bottom-left-radius: 40px;
-    border-bottom-right-radius:40px
+    img{
+        width: 1700px;
+        height: 300px;
+        border-bottom-left-radius: 40px;
+        border-bottom-right-radius:40px
+    }
 }
 
 .mas-buscado{
@@ -26,6 +31,13 @@
     height: 200px;
     grid-template-columns: 100px 425px 425px ;
     align-items: center;
+
+    a:hover{
+        border-color:$colorHover;
+        border-style: ridge;
+        border-radius: 10px;
+    }
+
 }
 
 .otras-opciones{
@@ -34,29 +46,33 @@
     width: 900px ;
     border-style: solid;
     border-radius: 10px;
+
+    a:hover{
+        border-color:$colorHover;
+        border-style: ridge;
+        border-radius: 10px;
+    }
+   
+    a{
+        display: grid;
+        grid-template-columns: 20% auto;
+        align-items: center;
+       
+    }
+
+    img{
+        border-radius: 5px;
+        margin: 5px 5px;
+    
+    }
 }
 
-.otras-opciones a{
-    display: grid;
-    grid-template-columns: 20% auto;
-    align-items: center;
-}
-
-.otras-opciones a:hover{
-    border-color:$color-hovers;
-    border-style: ridge;
-    border-radius: 10px;
-}
 
 .precios{
     display: flex;
     justify-content: space-between;
 }
 
-.otras-opciones img{
-    border-radius: 5px;
-    margin: 5px 5px;
-}
 
 .Chile{
     margin: 10px 10px;

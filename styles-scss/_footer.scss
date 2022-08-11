@@ -1,17 +1,18 @@
 
 footer{
-    color: $color-all;
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-around;
     width:100%;
+    background-color: $colorAll;
 }
 
 footer a{
-    color: #000000;
+    color: #ffffff;
 }
 
 footer a:hover{
-    color: $color-hovers;
+    color: #0000;
 }
+

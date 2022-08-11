@@ -6,16 +6,15 @@
   display: flex;
   flex-direction: column; }
 
-/* COLOR DE TODO */
 .master-div {
-  background-color: #ffffff; }
+  background-color: #a34d0f; }
 
-/*Estilos del header*/
 header {
+  font-family: 'Teko', sans-serif;
   display: flex;
   position: sticky;
   justify-content: space-between;
-  background: linear-gradient(to right, #000000cd, #1E3F46);
+  background: linear-gradient(to right, #000000cd, #a34d0f);
   align-items: center;
   padding: 10px;
   flex-direction: row; }
@@ -63,6 +62,9 @@ header {
   margin-right: 10px;
   border-radius: 10px; }
 
+main {
+  align-items: center; }
+
 .reservaciones-todo {
   width: 100%;
   height: 130px;
@@ -81,14 +83,12 @@ header {
   border-style: solid;
   height: 75px;
   width: 140px; }
-
-.vuelos:hover {
-  color: #0572a1; }
-
-.vuelos h4 {
-  margin-top: 4px;
-  margin-bottom: 4px;
-  font-size: 27px; }
+  .vuelos :hover {
+    color: #1E3F46; }
+  .vuelos h4 {
+    margin-top: 4px;
+    margin-bottom: 4px;
+    font-size: 27px; }
 
 .tiempo {
   padding-top: 17px;
@@ -115,7 +115,8 @@ header {
   height: 110px;
   flex-direction: row;
   flex-wrap: wrap;
-  align-items: center; }
+  align-items: center;
+  justify-content: space-around; }
 
 .form-destino {
   position: absolute;
@@ -163,7 +164,7 @@ header {
   margin: 10px; }
 
 .buttom {
-  padding-top: 10px;
+  padding-top: 25px;
   color: #1E3F46; }
 
 .ofertas-todo {
@@ -171,47 +172,45 @@ header {
   flex-direction: row;
   align-items: center;
   padding-top: 10px;
-  padding-bottom: 10px; }
-
-.ofertas-todo img {
-  height: 300px;
-  width: 800px;
-  border-radius: 10px; }
-
-.ofertas-todo a {
-  align-items: center;
-  justify-content: center;
-  color: #000000; }
-
-.ofertas-todo a:hover {
-  border-color: #0572a1;
-  border-style: ridge;
-  border-radius: 10px; }
+  padding-bottom: 10px;
+  justify-content: space-around; }
+  .ofertas-todo img {
+    height: 300px;
+    width: 800px;
+    border-radius: 10px; }
+  .ofertas-todo a {
+    align-items: center;
+    justify-content: center;
+    color: #000000; }
+  .ofertas-todo a:hover {
+    border-color: #1E3F46;
+    border-style: ridge;
+    border-radius: 10px; }
+  .ofertas-todo .carrousel-index {
+    align-items: center; }
 
 .salta {
   align-items: center;
   justify-content: center; }
 
 .lista-ul {
-  flex-direction: row; }
-
-.lista-ul img {
-  max-height: 600px;
-  max-width: 300px;
-  border-radius: 10px; }
+  flex-direction: row;
+  justify-content: space-around; }
+  .lista-ul img {
+    max-height: 600px;
+    max-width: 300px;
+    border-radius: 10px; }
 
 .experiencia {
   display: flex;
   flex-direction: column;
   align-items: center;
   padding-top: 10px;
-  padding-bottom: 10px; }
-
-.experiencia a {
-  color: #000000; }
-
-main {
-  align-items: center; }
+  padding-bottom: 10px;
+  justify-content: space-between;
+  padding-left: 25px; }
+  .experiencia a {
+    color: #000000; }
 
 .destinos-main {
   display: flex;
@@ -233,7 +232,8 @@ main {
   border-top-left-radius: 25px;
   border-top-right-radius: 25px;
   border-bottom-left-radius: 5px;
-  border-bottom-right-radius: 5px; }
+  border-bottom-right-radius: 5px;
+  text-decoration: none; }
 
 .Brasil a {
   background-image: url(../Images/brasil.jpg);
@@ -285,7 +285,7 @@ main {
 
 .opciones a:hover {
   border-bottom-style: solid;
-  border-bottom-color: #00000087; }
+  border-bottom-color: #1E3F46; }
 
 .opciones .contenedor {
   display: flex;
@@ -319,22 +319,24 @@ main {
   font-family: 'Teko', sans-serif; }
 
 .boton:hover {
-  background-color: #0572a172; }
+  background-color: #1E3F46; }
 
 .ofertas-main {
   display: flex;
   flex-direction: column;
   align-items: center; }
+  .ofertas-main a {
+    text-decoration: none;
+    color: #000000; }
 
 .img {
   display: flex;
   align-items: center; }
-
-.img img {
-  width: 1700px;
-  height: 300px;
-  border-bottom-left-radius: 40px;
-  border-bottom-right-radius: 40px; }
+  .img img {
+    width: 1700px;
+    height: 300px;
+    border-bottom-left-radius: 40px;
+    border-bottom-right-radius: 40px; }
 
 .mas-buscado {
   display: grid;
@@ -345,6 +347,10 @@ main {
   height: 200px;
   grid-template-columns: 100px 425px 425px;
   align-items: center; }
+  .mas-buscado a:hover {
+    border-color: #1E3F46;
+    border-style: ridge;
+    border-radius: 10px; }
 
 .otras-opciones {
   display: grid;
@@ -352,24 +358,21 @@ main {
   width: 900px;
   border-style: solid;
   border-radius: 10px; }
-
-.otras-opciones a {
-  display: grid;
-  grid-template-columns: 20% auto;
-  align-items: center; }
-
-.otras-opciones a:hover {
-  border-color: #0572a1;
-  border-style: ridge;
-  border-radius: 10px; }
+  .otras-opciones a:hover {
+    border-color: #1E3F46;
+    border-style: ridge;
+    border-radius: 10px; }
+  .otras-opciones a {
+    display: grid;
+    grid-template-columns: 20% auto;
+    align-items: center; }
+  .otras-opciones img {
+    border-radius: 5px;
+    margin: 5px 5px; }
 
 .precios {
   display: flex;
   justify-content: space-between; }
-
-.otras-opciones img {
-  border-radius: 5px;
-  margin: 5px 5px; }
 
 .Chile {
   margin: 10px 10px;
@@ -396,60 +399,27 @@ main {
   border-radius: 5px; }
 
 .ofertas-main {
-  color: aqua; }
+  color: black; }
 
-.codigo-reserva {
-  display: flex;
-  align-items: center;
-  justify-content: space-around;
-  width: 300px;
-  height: 100px;
-  border-style: solid;
-  border-radius: 10px; }
+.carousel {
+  height: 400px; }
 
-.pasajero {
-  display: flex;
-  align-items: center;
-  justify-content: space-around;
-  width: 300px;
-  height: 100px;
-  border-style: solid;
-  border-radius: 10px; }
-
-.form {
-  display: flex;
-  flex-direction: center;
-  align-items: center;
-  width: 100%;
-  max-width: 800px;
-  height: 220px; }
-
-.form-2 {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: space-around;
-  flex-wrap: wrap;
-  max-width: 800px;
-  width: 100%;
-  height: 120px; }
-
-.datos {
-  font-size: 35px;
-  font-family: italic; }
+.formulario .textos {
+  align-items: center; }
 
 footer {
-  color: #1E3F46;
   display: flex;
   flex-direction: row;
   align-items: center;
-  justify-content: space-around; }
+  justify-content: space-around;
+  width: 100%;
+  background-color: #a34d0f; }
 
 footer a {
-  color: #000000; }
+  color: #ffffff; }
 
 footer a:hover {
-  color: #0572a1; }
+  color: #0000; }
 
 /* Laptop */
 @media screen and (max-width: 1740px) {

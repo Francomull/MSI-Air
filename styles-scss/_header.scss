@@ -57,16 +57,22 @@ header{
 .logo{
     flex-direction: row;
     align-items: center;
-}
 
-.logo span{
-    color: #ffffff;
-    font-size: 25px;
-    font-weight: 4px;
-    padding-top: 10px;
-    align-items: center;
+    span{
+        color: #ffffff;
+        font-size: 25px;
+        font-weight: 4px;
+        padding-top: 10px;
+        align-items: center;
+    }
+    
+    img{
+        margin-top: 5px;
+        height: 50px;
+        margin-right: 10px;
+        border-radius: 10px;
+    }
 }
-
 
 
 .monologo h3{
@@ -74,10 +80,3 @@ header{
     padding-top: 40px;
 }
 
-
-.logo img{
-    margin-top: 5px;
-    height: 50px;
-    margin-right: 10px;
-    border-radius: 10px;
-}

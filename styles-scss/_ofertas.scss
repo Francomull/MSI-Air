@@ -75,29 +75,17 @@
 
 
 .Chile{
-    margin: 10px 10px;
-    border-style: solid;
-    border-style: 2px;
-    border-radius: 5px;
+    @include formatoOF ($marginOferts, $bordesS, $bordesT, $bordesR);
 }
 
 .Cusco{
-    margin: 10px 10px;
-    border-style: solid;
-    border-style: 2px;
-    border-radius: 5px;
+    @include formatoOF ($marginOferts, $bordesS, $bordesT, $bordesR);
 }
 
 .Cancun{
-    margin: 10px 10px;
-    border-style: solid;
-    border-style: 2px;
-    border-radius: 5px;
+    @include formatoOF ($marginOferts, $bordesS, $bordesT, $bordesR);
 }
 
 .Miami{
-    margin: 10px 10px;
-    border-style: solid;
-    border-style: 2px;
-    border-radius: 5px;
+    @include formatoOF ($marginOferts, $bordesS, $bordesT, $bordesR);
 }

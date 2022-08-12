@@ -11,101 +11,103 @@
     gap: 1rem;
     margin-top: 40px;
     align-items: center;
+
+    a{
+        height: 400px;
+        width: 500px;
+        justify-content: end;
+        border-top-left-radius: 25px;
+        border-top-right-radius: 25px;
+        border-bottom-left-radius: 5px;
+        border-bottom-right-radius: 5px;
+        text-decoration: none;
+    }
+
+    a:hover{
+        border-bottom-style: solid;
+        border-bottom-color: $colorHover;
+    }
+
+    .contenedor{
+        display: flex;
+        justify-content: space-between;
+        flex-direction:row;
+        align-items: center;
+        background-color: #021707b7;
+        height: 100px;
+        width: 100%;
+        border-radius: 25px;
+        margin-bottom: 20px;
+    }
+
+    .contenedor:hover{
+        border-style: solid;
+        border-color: #0000008c;
+    }
 }
 
-.opciones a{
-    height: 400px;
-    width: 500px;
-    justify-content: end;
-    border-top-left-radius: 25px;
-    border-top-right-radius: 25px;
-    border-bottom-left-radius: 5px;
-    border-bottom-right-radius: 5px;
-    text-decoration: none;
-}
 
 .Brasil a{
-    background-image: url(../Images/brasil.jpg);
+    background-image: url(../images/brasil.jpg);
     background-repeat: no-repeat;
 }
 
 .Bolivia a{
-    background-image: url(../Images/bolivia.jpg);
+    background-image: url(../images/bolivia.jpg);
     background-repeat: no-repeat;
 }
 
 .chile2 a{
-    background-image: url(../Images/chile.jpg);
+    background-image: url(../images/chile.jpg);
     background-repeat: no-repeat;
 }
 
 .Colombia a{
-    background-image: url(../Images/colombia.jpg);
+    background-image: url(../images/colombia.jpg);
     background-repeat: no-repeat;
 }
 
 .Ecuador a{
-    background-image: url(../Images/ecuador.jpg);
+    background-image: url(../images/ecuador.jpg);
     background-repeat: no-repeat;
 }
 
 .España a{
-    background-image: url(../Images/españa.jpg);
+    background-image: url(../images/españa.jpg);
     background-repeat: no-repeat;
 }
 
 .USA a{
-    background-image: url(../Images/USA.jpg);
+    background-image: url(../images/USA.jpg);
     background-repeat: no-repeat;
 }
 
 .Italia a{
-    background-image: url(../Images/italia.jpg);
+    background-image: url(../images/italia.jpg);
     background-repeat: no-repeat;
 }
 
 .Mexico a{
-    background-image: url(../Images/mexico.jpg);
+    background-image: url(../images/mexico.jpg);
     background-repeat: no-repeat;
 }
 
 .Paraguay a{
-    background-image: url(../Images/paraguay.jpg);
+    background-image: url(../images/paraguay.jpg);
     background-repeat: no-repeat;
 }
 
 .Peru a{
-    background-image: url(../Images/peru.jpg);
+    background-image: url(../images/peru.jpg);
     background-repeat: no-repeat;
 }
 
 .Uruguay a{
-    background-image: url(../Images/uruguay.jpg);
+    background-image: url(../images/uruguay.jpg);
     background-repeat: no-repeat;
 }
 
 
-.opciones a:hover{
-    border-bottom-style: solid;
-    border-bottom-color: $colorHover;
-}
-
-.opciones .contenedor{
-    display: flex;
-    justify-content: space-between;
-    flex-direction:row;
-    align-items: center;
-    background-color: #021707b7;
-    height: 100px;
-    width: 100%;
-    border-radius: 25px;
-    margin-bottom: 20px;
-}
-
-.opciones .contenedor:hover{
-    border-style: solid;
-    border-color: #0000008c;
-}
 
 .texto h3{
     font-size: 40px;
@@ -123,8 +125,9 @@
     overflow: hidden;
     border-radius: 20px;
     font-family:'Teko', sans-serif;
+
+    .boton:hover{
+        background-color: $colorHover;
+    }
 }
 
-.boton:hover{
-    background-color: $colorHover;
-}

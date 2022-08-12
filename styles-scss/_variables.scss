@@ -5,10 +5,44 @@ $colorAll:#a34d0f;
 $colorHover:#1E3F46;
 $padding:25px;
 
+$marginOferts: 10px 10px;
+
+$bordesS: border-style solid;
+$bordesT: border-style 2px;
+$bordesR: border-radius 5px;
+
+$decorationN: text-decoration none;
+$cBlack:#000000;
+
+
 //Mixins
 
 
+@mixin formatoOF ($marginOferts, $bordesS, $bordesT, $bordesR){
 
-//Maps
+    margin: $marginOferts;
+    border-style: $bordesS;
+    border-style: $bordesT;
+    border-radius: $bordesR;
+
+}
+
+//Maps - Each
+
+$footer1: $decorationN, $cBlack;
+
+@each $footer2 in $footer1 {
+    .portalesAsociados-#{$footer1}{
+        text-decoration: $decorationN;
+        color: $cBlack;
+    }
+}
+
+@each $footer2 in $footer1 {
+    .informacionLegal-#{$footer1}{
+        text-decoration: $decorationN;
+        color: $cBlack;
+    }
+}
 
 

@@ -1,4 +1,20 @@
 @charset "UTF-8";
+.portalesAsociados-text-decoration none, #000000 {
+  text-decoration: text-decoration none;
+  color: #000000; }
+
+.portalesAsociados-text-decoration none, #000000 {
+  text-decoration: text-decoration none;
+  color: #000000; }
+
+.informacionLegal-text-decoration none, #000000 {
+  text-decoration: text-decoration none;
+  color: #000000; }
+
+.informacionLegal-text-decoration none, #000000 {
+  text-decoration: text-decoration none;
+  color: #000000; }
+
 * {
   font-family: 'Teko', sans-serif;
   font-size: 17px;
@@ -44,23 +60,21 @@ header {
 .logo {
   flex-direction: row;
   align-items: center; }
-
-.logo span {
-  color: #ffffff;
-  font-size: 25px;
-  font-weight: 4px;
-  padding-top: 10px;
-  align-items: center; }
+  .logo span {
+    color: #ffffff;
+    font-size: 25px;
+    font-weight: 4px;
+    padding-top: 10px;
+    align-items: center; }
+  .logo img {
+    margin-top: 5px;
+    height: 50px;
+    margin-right: 10px;
+    border-radius: 10px; }
 
 .monologo h3 {
   padding-left: 30px;
   padding-top: 40px; }
-
-.logo img {
-  margin-top: 5px;
-  height: 50px;
-  margin-right: 10px;
-  border-radius: 10px; }
 
 main {
   align-items: center; }
@@ -83,7 +97,7 @@ main {
   border-style: solid;
   height: 75px;
   width: 140px; }
-  .vuelos :hover {
+  .vuelos .vuelos:hover {
     color: #1E3F46; }
   .vuelos h4 {
     margin-top: 4px;
@@ -126,22 +140,12 @@ main {
   width: 100%;
   height: 200px; }
 
-.origen {
+.origen, .destino {
   justify-content: space-between;
   width: 320px;
   height: 75px;
   border-style: solid;
   border-radius: 10px;
-  padding: 10px;
-  margin: 10px; }
-
-.destino {
-  justify-content: space-between;
-  width: 320px;
-  height: 75px;
-  border-style: solid;
-  border-radius: 10px;
-  margin-top: 0;
   padding: 10px;
   margin: 10px; }
 
@@ -224,83 +228,79 @@ main {
   gap: 1rem;
   margin-top: 40px;
   align-items: center; }
-
-.opciones a {
-  height: 400px;
-  width: 500px;
-  justify-content: end;
-  border-top-left-radius: 25px;
-  border-top-right-radius: 25px;
-  border-bottom-left-radius: 5px;
-  border-bottom-right-radius: 5px;
-  text-decoration: none; }
+  .opciones a {
+    height: 400px;
+    width: 500px;
+    justify-content: end;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    text-decoration: none; }
+  .opciones a:hover {
+    border-bottom-style: solid;
+    border-bottom-color: #1E3F46; }
+  .opciones .contenedor {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+    background-color: #021707b7;
+    height: 100px;
+    width: 100%;
+    border-radius: 25px;
+    margin-bottom: 20px; }
+  .opciones .contenedor:hover {
+    border-style: solid;
+    border-color: #0000008c; }
 
 .Brasil a {
-  background-image: url(../Images/brasil.jpg);
+  background-image: url(../images/brasil.jpg);
   background-repeat: no-repeat; }
 
 .Bolivia a {
-  background-image: url(../Images/bolivia.jpg);
+  background-image: url(../images/bolivia.jpg);
   background-repeat: no-repeat; }
 
 .chile2 a {
-  background-image: url(../Images/chile.jpg);
+  background-image: url(../images/chile.jpg);
   background-repeat: no-repeat; }
 
 .Colombia a {
-  background-image: url(../Images/colombia.jpg);
+  background-image: url(../images/colombia.jpg);
   background-repeat: no-repeat; }
 
 .Ecuador a {
-  background-image: url(../Images/ecuador.jpg);
+  background-image: url(../images/ecuador.jpg);
   background-repeat: no-repeat; }
 
 .España a {
-  background-image: url(../Images/españa.jpg);
+  background-image: url(../images/españa.jpg);
   background-repeat: no-repeat; }
 
 .USA a {
-  background-image: url(../Images/USA.jpg);
+  background-image: url(../images/USA.jpg);
   background-repeat: no-repeat; }
 
 .Italia a {
-  background-image: url(../Images/italia.jpg);
+  background-image: url(../images/italia.jpg);
   background-repeat: no-repeat; }
 
 .Mexico a {
-  background-image: url(../Images/mexico.jpg);
+  background-image: url(../images/mexico.jpg);
   background-repeat: no-repeat; }
 
 .Paraguay a {
-  background-image: url(../Images/paraguay.jpg);
+  background-image: url(../images/paraguay.jpg);
   background-repeat: no-repeat; }
 
 .Peru a {
-  background-image: url(../Images/peru.jpg);
+  background-image: url(../images/peru.jpg);
   background-repeat: no-repeat; }
 
 .Uruguay a {
-  background-image: url(../Images/uruguay.jpg);
+  background-image: url(../images/uruguay.jpg);
   background-repeat: no-repeat; }
-
-.opciones a:hover {
-  border-bottom-style: solid;
-  border-bottom-color: #1E3F46; }
-
-.opciones .contenedor {
-  display: flex;
-  justify-content: space-between;
-  flex-direction: row;
-  align-items: center;
-  background-color: #021707b7;
-  height: 100px;
-  width: 100%;
-  border-radius: 25px;
-  margin-bottom: 20px; }
-
-.opciones .contenedor:hover {
-  border-style: solid;
-  border-color: #0000008c; }
 
 .texto h3 {
   font-size: 40px;
@@ -317,9 +317,8 @@ main {
   overflow: hidden;
   border-radius: 20px;
   font-family: 'Teko', sans-serif; }
-
-.boton:hover {
-  background-color: #1E3F46; }
+  .boton .boton:hover {
+    background-color: #1E3F46; }
 
 .ofertas-main {
   display: flex;
@@ -376,27 +375,27 @@ main {
 
 .Chile {
   margin: 10px 10px;
-  border-style: solid;
-  border-style: 2px;
-  border-radius: 5px; }
+  border-style: border-style solid;
+  border-style: border-style 2px;
+  border-radius: border-radius 5px; }
 
 .Cusco {
   margin: 10px 10px;
-  border-style: solid;
-  border-style: 2px;
-  border-radius: 5px; }
+  border-style: border-style solid;
+  border-style: border-style 2px;
+  border-radius: border-radius 5px; }
 
 .Cancun {
   margin: 10px 10px;
-  border-style: solid;
-  border-style: 2px;
-  border-radius: 5px; }
+  border-style: border-style solid;
+  border-style: border-style 2px;
+  border-radius: border-radius 5px; }
 
 .Miami {
   margin: 10px 10px;
-  border-style: solid;
-  border-style: 2px;
-  border-radius: 5px; }
+  border-style: border-style solid;
+  border-style: border-style 2px;
+  border-radius: border-radius 5px; }
 
 .ofertas-main {
   color: black; }
@@ -416,10 +415,11 @@ footer {
   background-color: #a34d0f; }
 
 footer a {
-  color: #ffffff; }
+  color: #000000;
+  text-decoration: none; }
 
 footer a:hover {
-  color: #0000; }
+  color: #1E3F46; }
 
 /* Laptop */
 @media screen and (max-width: 1740px) {

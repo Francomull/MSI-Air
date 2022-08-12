@@ -1,0 +1,14 @@
+AGREGADOS Y MODIFICACIONES 
+
+Como primer medida agregue VARIABLES tanto para identificar colores como para padding y los bordes 
+de algunos componentes. Luego de eso cree un MIXIN para agrupar los valores de las clases .chile/.cusco/
+.cancun/.miami, los cuales se aplicaron mediante @INCLUDE a sus respectivas clases. 
+
+Se agrego @EXTEND en el INDEX. 
+
+Se agrego Keywords y Description en todos los componentes, variando las Keywords y manteniendo la misma Descrption.
+
+NO se agrego Favicon en este desafío debido a que anteriormente ya contenia iconos.
+
+Así también se agrego en @EACH/MAPS en el footer para designar colores y eliminar el "text-decoration" de los 
+elementos "a".

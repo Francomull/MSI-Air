@@ -12,3 +12,8 @@ NO se agrego Favicon en este desafío debido a que anteriormente ya contenia ico
 
 Así también se agrego en @EACH/MAPS en el footer para designar colores y eliminar el "text-decoration" de los 
 elementos "a".
+
+
+3RA ENTREGA
+
+Corregi la anidacion, algunas rutas de enlaces y el tamaño de los textos.

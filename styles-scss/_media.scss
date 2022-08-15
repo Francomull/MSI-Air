@@ -21,10 +21,10 @@
 
     .ofertas-de-vuelos{
         align-items: center;
-    }
 
-    .ofertas-de-vuelos .desde{
-        width: 500px;
+        .desde{
+            width: 500px;
+        }
     }
 
     .opciones{
@@ -76,24 +76,26 @@
         height: 600px;
         border-style: solid;
         border-radius: 10px;
+
+        a{
+            display: grid;
+            grid-template-columns: 20% auto;
+            justify-content: space-evenly;
+            align-items: center;
+        }
     }
     
-    .otras-opciones a{
-        display: grid;
-        grid-template-columns: 20% auto;
-        justify-content: space-evenly;
-        align-items: center;
-    }
 
     /* Media Check in */
 
     .main {
         align-items: center;
+
+        .titulos{
+            align-items: center;
+        }
     }
 
-    .main .titulos{
-        align-items: center;
-    }
 
     .form .form-2{
         align-items: center;
@@ -242,12 +244,13 @@
         height: 600px;
         border-style: solid;
         border-radius: 10px;
+
+        a{
+            display: grid;
+            grid-template-columns: 20% auto;
+            justify-content: space-evenly;
+            align-items: center;
+        }
     }
-    
-    .otras-opciones a{
-        display: grid;
-        grid-template-columns: 20% auto;
-        justify-content: space-evenly;
-        align-items: center;
-    }
+     
 }

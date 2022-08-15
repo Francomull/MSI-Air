@@ -39,7 +39,7 @@ main{
 
 .tiempo{
     padding-top: 17px;
-    color:#1E3F46;
+    color:#000000;
     border-color: #000000;
     border-radius: 10px;
     border-top-left-radius: 0px;
@@ -50,13 +50,18 @@ main{
 }
 
 .monologo{
-    background-image: url(../Images/avion-rojo1.jpg);
-    background-color: #1E3F46;
+    background-image: url(../images/avion-rojo1.jpg);
+    background-color: $colorAll;
     align-items: center;
     background-position: center;
     height: 200px;
+    
+    h1{
+        font-size: 30px;
 
-    h3{
+        }
+
+    h1 i{
         font-size: 30px;
     }
 }

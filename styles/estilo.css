@@ -23,19 +23,21 @@
   flex-direction: column; }
 
 .master-div {
-  background-color: #a34d0f; }
+  background-color: #ffffff; }
 
 header {
   font-family: 'Teko', sans-serif;
   display: flex;
   position: sticky;
   justify-content: space-between;
-  background: linear-gradient(to right, #000000cd, #a34d0f);
+  background: #040279;
   align-items: center;
   padding: 10px;
   flex-direction: row; }
-  header :hover {
-    color: #03587d; }
+  header a:hover {
+    border-bottom: solid 3px;
+    border-radius: 5px;
+    color: #a20303; }
   header a {
     font-size: 25px;
     font-weight: 4px;
@@ -79,26 +81,37 @@ header {
 main {
   align-items: center; }
 
+.monologo {
+  background-image: url(../images/avion-rojo1.jpg);
+  background-color: #ffffff;
+  align-items: center;
+  background-position: center;
+  height: 200px; }
+  .monologo h1 i {
+    font-size: 30px; }
+
 .reservaciones-todo {
-  width: 100%;
+  color: #ffffff;
+  background-color: #040279;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 30px;
+  margin-top: 30px;
+  border-radius: 20px;
+  width: 1800;
   height: 130px;
   flex-direction: row;
   align-items: center;
   justify-content: space-between; }
 
 .vuelos {
+  border-radius: 5px;
+  border-bottom-style: solid 3px;
   padding-top: 15px;
   padding-left: 30px;
-  color: #000000;
-  border-color: #000000;
-  border-radius: 10px;
-  border-top-right-radius: 0px;
-  border-bottom-right-radius: 0px;
-  border-style: solid;
+  color: #ffffff;
   height: 75px;
   width: 140px; }
-  .vuelos .vuelos:hover {
-    color: #1E3F46; }
   .vuelos h4 {
     margin-top: 4px;
     margin-bottom: 4px;
@@ -107,22 +120,33 @@ main {
 .tiempo {
   padding-top: 17px;
   color: #000000;
-  border-color: #000000;
-  border-radius: 10px;
-  border-top-left-radius: 0px;
-  border-bottom-left-radius: 0px;
-  border-style: solid;
   width: 320px;
   height: 75px; }
 
-.monologo {
-  background-image: url(../images/avion-rojo1.jpg);
-  background-color: #a34d0f;
-  align-items: center;
-  background-position: center;
-  height: 200px; }
-  .monologo h1 i {
-    font-size: 30px; }
+.origen, .destino {
+  justify-content: space-between;
+  width: 320px;
+  height: 75px;
+  padding: 10px;
+  margin: 10px; }
+
+.ida {
+  justify-content: space-between;
+  width: 200px;
+  height: 100px;
+  padding: 10px;
+  margin: 10px; }
+
+.buscar {
+  justify-content: space-between;
+  width: 140px;
+  height: 75px;
+  padding: 10px;
+  margin: 10px; }
+
+.buttom {
+  padding-top: 25px;
+  color: #1E3F46; }
 
 .destino-todo {
   position: relative;
@@ -141,37 +165,6 @@ main {
   justify-content: space-around;
   width: 100%;
   height: 200px; }
-
-.origen, .destino {
-  justify-content: space-between;
-  width: 320px;
-  height: 75px;
-  border-style: solid;
-  border-radius: 10px;
-  padding: 10px;
-  margin: 10px; }
-
-.ida {
-  justify-content: space-between;
-  width: 200px;
-  height: 100px;
-  border-style: solid;
-  border-radius: 10px;
-  padding: 10px;
-  margin: 10px; }
-
-.buscar {
-  justify-content: space-between;
-  width: 140px;
-  height: 75px;
-  border-style: solid;
-  border-radius: 10px;
-  padding: 10px;
-  margin: 10px; }
-
-.buttom {
-  padding-top: 25px;
-  color: #1E3F46; }
 
 .ofertas-todo {
   display: flex;
@@ -201,7 +194,15 @@ main {
 
 .lista-ul {
   flex-direction: row;
-  justify-content: space-around; }
+  justify-content: space-between; }
+  .lista-ul a {
+    color: #ffffff;
+    margin-left: 15px;
+    text-decoration: none; }
+  .lista-ul a:hover {
+    border-bottom: solid 3px;
+    border-radius: 5px;
+    color: #a20303; }
   .lista-ul img {
     max-height: 600px;
     max-width: 300px;
@@ -209,14 +210,20 @@ main {
 
 .experiencia {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding-top: 10px;
-  padding-bottom: 10px;
   justify-content: space-between;
-  padding-left: 25px; }
-  .experiencia a {
-    color: #000000; }
+  align-items: center;
+  background-color: #040279;
+  width: 1300px;
+  border-radius: 20px;
+  flex-direction: column;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 30px;
+  margin-top: 30px; }
+  .experiencia h2 {
+    color: #ffffff; }
+  .experiencia p {
+    color: #ffffff; }
 
 .destinos-main {
   display: flex;
@@ -241,7 +248,7 @@ main {
     text-decoration: none; }
   .opciones a:hover {
     border-bottom-style: solid;
-    border-bottom-color: #1E3F46; }
+    border-bottom-color: #a20303; }
   .opciones .contenedor {
     display: flex;
     justify-content: space-between;
@@ -320,7 +327,7 @@ main {
   border-radius: 20px;
   font-family: 'Teko', sans-serif; }
   .boton .boton:hover {
-    background-color: #1E3F46; }
+    background-color: #a20303; }
 
 .ofertas-main {
   display: flex;
@@ -340,6 +347,8 @@ main {
     border-bottom-right-radius: 40px; }
 
 .mas-buscado {
+  background-color: #040279;
+  color: #ffffff;
   display: grid;
   margin-bottom: 10px;
   border-style: solid;
@@ -347,26 +356,35 @@ main {
   width: 1000px;
   height: 200px;
   grid-template-columns: 100px 425px 425px;
-  align-items: center; }
+  align-items: center;
+  padding-left: 20px; }
+  .mas-buscado a {
+    background-color: #ffffff;
+    margin-left: 10px;
+    border-radius: 10px;
+    align-items: center; }
   .mas-buscado a:hover {
-    border-color: #1E3F46;
+    border-color: #a20303;
     border-style: ridge;
     border-radius: 10px; }
 
 .otras-opciones {
+  background-color: #040279;
   display: grid;
   margin-top: 10px;
   width: 900px;
   border-style: solid;
   border-radius: 10px; }
   .otras-opciones a:hover {
-    border-color: #1E3F46;
-    border-style: ridge;
-    border-radius: 10px; }
+    border-style: solid;
+    border-radius: 10px;
+    border-color: #a20303; }
   .otras-opciones a {
     display: grid;
     grid-template-columns: 20% auto;
-    align-items: center; }
+    align-items: center;
+    border-style: solid;
+    border-radius: 10px; }
   .otras-opciones img {
     border-radius: 5px;
     margin: 5px 5px; }
@@ -379,25 +397,29 @@ main {
   margin: 10px 10px;
   border-style: border-style solid;
   border-style: border-style 2px;
-  border-radius: border-radius 5px; }
+  border-radius: 10px;
+  background-color: #ffffff; }
 
 .Cusco {
   margin: 10px 10px;
   border-style: border-style solid;
   border-style: border-style 2px;
-  border-radius: border-radius 5px; }
+  border-radius: 10px;
+  background-color: #ffffff; }
 
 .Cancun {
   margin: 10px 10px;
   border-style: border-style solid;
   border-style: border-style 2px;
-  border-radius: border-radius 5px; }
+  border-radius: 10px;
+  background-color: #ffffff; }
 
 .Miami {
   margin: 10px 10px;
   border-style: border-style solid;
   border-style: border-style 2px;
-  border-radius: border-radius 5px; }
+  border-radius: 10px;
+  background-color: #ffffff; }
 
 .ofertas-main {
   color: black; }
@@ -414,12 +436,18 @@ footer {
   align-items: center;
   justify-content: space-around;
   width: 100%;
-  background-color: #a34d0f; }
+  background-color: #040279;
+  margin-top: 30px;
+  padding-top: 30px; }
+  footer h5 {
+    font-size: 20px;
+    color: #ffffff; }
   footer a {
-    color: #000000;
+    font-size: 20px;
+    color: #ffffff;
     text-decoration: none; }
   footer a:hover {
-    color: #1E3F46; }
+    color: #a20303; }
 
 /* Laptop */
 @media screen and (max-width: 1740px) {

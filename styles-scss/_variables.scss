@@ -1,15 +1,14 @@
 //Variales 
 
 
-$colorAll:#a34d0f;
-$colorHover:#1E3F46;
+$colorAll:#ffffff;
+$colorHover:#a20303;
 $padding:25px;
 
 $marginOferts: 10px 10px;
 
 $bordesS: border-style solid;
 $bordesT: border-style 2px;
-$bordesR: border-radius 5px;
 
 $decorationN: text-decoration none;
 $cBlack:#000000;
@@ -18,12 +17,13 @@ $cBlack:#000000;
 //Mixins
 
 
-@mixin formatoOF ($marginOferts, $bordesS, $bordesT, $bordesR){
+@mixin formatoOF ($marginOferts, $bordesS, $bordesT){
 
     margin: $marginOferts;
     border-style: $bordesS;
     border-style: $bordesT;
-    border-radius: $bordesR;
+    border-radius: 10px;
+    background-color: #ffffff;
 
 }
 

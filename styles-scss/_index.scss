@@ -3,52 +3,6 @@ main{
     align-items: center;
 }
 
-
-.reservaciones-todo{
-    width: 100%;
-    height: 130px;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-between;
-}
-
-.vuelos{
-    padding-top: 15px;
-    padding-left: 30px;
-    color:#000000;
-    border-color:#000000;
-    border-radius: 10px;
-    border-top-right-radius: 0px;
-    border-bottom-right-radius: 0px;
-    border-style: solid;
-    height: 75px;
-    width: 140px;
-
-    .vuelos:hover{
-        color:$colorHover;
-    }
-
-    h4{
-        margin-top: 4px;
-        margin-bottom: 4px;
-        font-size: 27px;
-    }
-    
-}
-
-
-.tiempo{
-    padding-top: 17px;
-    color:#000000;
-    border-color: #000000;
-    border-radius: 10px;
-    border-top-left-radius: 0px;
-    border-bottom-left-radius: 0px;
-    border-style: solid; 
-    width: 320px;
-    height: 75px;
-}
-
 .monologo{
     background-image: url(../images/avion-rojo1.jpg);
     background-color: $colorAll;
@@ -63,6 +17,82 @@ main{
         }
     } 
 }
+
+
+.reservaciones-todo{
+    color: #ffffff;
+    background-color: #040279;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    border-radius: 20px;
+    width: 1800;
+    height: 130px;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.vuelos{
+    border-radius: 5px;
+    border-bottom-style: solid 3px ;
+    padding-top: 15px;
+    padding-left: 30px;
+    color:#ffffff;
+    height: 75px;
+    width: 140px;
+
+    h4{
+        margin-top: 4px;
+        margin-bottom: 4px;
+        font-size: 27px;
+    }
+    
+}
+
+.tiempo{
+    padding-top: 17px;
+    color:#000000;
+    width: 320px;
+    height: 75px;
+}
+
+.origen{
+    justify-content: space-between;
+    width: 320px;
+    height: 75px;
+    padding: 10px;
+    margin: 10px;
+}
+
+.destino{
+    @extend .origen 
+}
+
+.ida{
+    justify-content: space-between;
+    width: 200px;
+    height: 100px;
+    padding: 10px;
+    margin: 10px;
+}
+
+.buscar{
+    justify-content: space-between;
+    width: 140px;
+    height: 75px;
+    padding: 10px;
+    margin: 10px;
+}
+
+
+.buttom{
+    padding-top: $padding;
+    color:#1E3F46;
+}
+
+
 
 .destino-todo{
     position: relative;
@@ -82,47 +112,6 @@ main{
     justify-content: space-around;
     width: 100%;
     height: 200px;
-}
-
-
-.origen{
-    justify-content: space-between;
-    width: 320px;
-    height: 75px;
-    border-style:solid;
-    border-radius: 10px;
-    padding: 10px;
-    margin: 10px;
-}
-
-.destino{
-    @extend .origen 
-}
-
-.ida{
-    justify-content: space-between;
-    width: 200px;
-    height: 100px;
-    border-style:solid;
-    border-radius: 10px;
-    padding: 10px;
-    margin: 10px;
-}
-
-.buscar{
-    justify-content: space-between;
-    width: 140px;
-    height: 75px;
-    border-style:solid;
-    border-radius: 10px;
-    padding: 10px;
-    margin: 10px;
-}
-
-
-.buttom{
-    padding-top: $padding;
-    color:#1E3F46;
 }
 
 
@@ -166,7 +155,19 @@ main{
 
 .lista-ul{
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-between;
+
+    a{
+        color: #ffffff;
+        margin-left: 15px;
+        text-decoration: none;
+    }
+
+    a:hover{
+        border-bottom: solid 3px;
+        border-radius: 5px;
+        color:#a20303;
+    }
 
     img{
         max-height: 600px;
@@ -177,16 +178,27 @@ main{
 
 .experiencia {
     display:flex;
-    flex-direction: column;
-    align-items: center;
-    padding-top: 10px;
-    padding-bottom: 10px;
     justify-content: space-between;
-    padding-left: $padding;
+    align-items: center;
+    background-color: #040279;
+    width: 1300px;
+    border-radius: 20px;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+    margin-top: 30px;
 
-    a{
-        color: #000000;
+    h2{
+        color: #ffffff;
     }
+
+    p{
+        color: #ffffff;
+    }
+
+           
 }
+
 
 

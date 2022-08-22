@@ -17,13 +17,15 @@ header{
     display: flex;
     position:sticky;
 	justify-content: space-between;
-	background: linear-gradient(to right, #000000cd, $colorAll);
+	background: #040279;
 	align-items:center;
 	padding: 10px;
     flex-direction: row; 
 
-    :hover{
-        color:#03587d;
+    a:hover{
+        border-bottom: solid 3px;
+        border-radius: 5px;
+        color:#a20303;
     }
 
     a{

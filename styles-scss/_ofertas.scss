@@ -23,6 +23,8 @@
 }
 
 .mas-buscado{
+    background-color: #040279;
+    color: #ffffff;
     display: grid;
     margin-bottom: 10px;
     border-style: solid;
@@ -31,6 +33,14 @@
     height: 200px;
     grid-template-columns: 100px 425px 425px ;
     align-items: center;
+    padding-left: 20px;
+
+    a{
+        background-color: #ffffff;
+        margin-left: 10px;
+        border-radius: 10px;
+        align-items: center;
+    }
 
     a:hover{
         border-color:$colorHover;
@@ -41,6 +51,7 @@
 }
 
 .otras-opciones{
+    background-color: #040279;
     display: grid;
     margin-top: 10px;
     width: 900px ;
@@ -48,16 +59,17 @@
     border-radius: 10px;
 
     a:hover{
-        border-color:$colorHover;
-        border-style: ridge;
+        border-style: solid;
         border-radius: 10px;
+        border-color:$colorHover;
     }
    
     a{
         display: grid;
         grid-template-columns: 20% auto;
         align-items: center;
-       
+        border-style: solid;
+        border-radius: 10px;
     }
 
     img{
@@ -75,17 +87,17 @@
 
 
 .Chile{
-    @include formatoOF ($marginOferts, $bordesS, $bordesT, $bordesR);
+    @include formatoOF ($marginOferts, $bordesS, $bordesT);
 }
 
 .Cusco{
-    @include formatoOF ($marginOferts, $bordesS, $bordesT, $bordesR);
+    @include formatoOF ($marginOferts, $bordesS, $bordesT);
 }
 
 .Cancun{
-    @include formatoOF ($marginOferts, $bordesS, $bordesT, $bordesR);
+    @include formatoOF ($marginOferts, $bordesS, $bordesT);
 }
 
 .Miami{
-    @include formatoOF ($marginOferts, $bordesS, $bordesT, $bordesR);
+    @include formatoOF ($marginOferts, $bordesS, $bordesT);
 }

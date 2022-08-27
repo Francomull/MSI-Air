@@ -98,7 +98,7 @@ main {
   margin-bottom: 30px;
   margin-top: 30px;
   border-radius: 20px;
-  width: 1800;
+  width: 1800px;
   height: 130px;
   flex-direction: row;
   align-items: center;
@@ -453,9 +453,21 @@ footer {
 @media screen and (max-width: 1740px) {
   /* Media de Ofertas */
   .ofertas-main .img {
-    width: 1400px; } }
+    width: 1400px; }
+  /* Media del Index ( Inicio )*/
+  .reservaciones-todo {
+    width: auto;
+    flex-direction: column;
+    height: 350px;
+    justify-content: center; } }
 
 @media screen and (max-width: 1550px) {
+  /* Media del Index ( Inicio )*/
+  .experiencia {
+    width: 500px;
+    display: flex; }
+    .experiencia ul {
+      flex-direction: column; }
   /* Media de Destinos */
   .encabezado {
     align-items: center; }
@@ -490,12 +502,14 @@ footer {
     flex-direction: column;
     justify-content: space-around;
     width: 400px;
-    height: 300px; }
+    height: 500px; }
+    .mas-buscado div {
+      width: 300px; }
   .otras-opciones {
     display: grid;
     margin-top: 10px;
     width: 400px;
-    height: 600px;
+    height: auto;
     border-style: solid;
     border-radius: 10px; }
     .otras-opciones a {
@@ -548,6 +562,10 @@ footer {
 
 /* Tablet */
 @media (max-width: 700px) {
+  /* Media del Index ( Inicio )*/
+  .carousel-index {
+    display: none; }
+  /*header*/
   header {
     flex-direction: column; }
   nav {
@@ -570,6 +588,11 @@ footer {
     justify-content: none; } }
 
 @media screen and (max-width: 510px) {
+  /* index */
+  .experiencia {
+    width: auto; }
+    .experiencia ul li a {
+      width: 250px; }
   .opciones {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
@@ -597,11 +620,13 @@ footer {
     justify-content: space-around;
     width: 300px;
     height: 400px; }
+    .mas-buscado div {
+      width: auto; }
   .otras-opciones {
     display: grid;
     margin-top: 10px;
     width: 300px;
-    height: 600px;
+    height: auto;
     border-style: solid;
     border-radius: 10px; }
     .otras-opciones a {
